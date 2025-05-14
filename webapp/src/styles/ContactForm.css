@@ -46,13 +46,6 @@
   gap: 5rem;
 }
 
-@media (max-width: 768px) {
-  .contact-form {
-    grid-template-columns: 1fr;
-    padding: 2rem;
-  }
-}
-
 .contact-form h2 {
   text-align: center;
   font-size: 2rem;
@@ -69,7 +62,6 @@
 .contact-form textarea {
   width: 100%;
   margin: 0 auto;
-  max-width: 400px;
   padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -78,6 +70,8 @@
   color: #333; /* Set text color to a readable dark gray */
   transition: border-color 0.3s, background-color 0.3s;
 }
+
+
 
 .contact-form button {
   padding: 10px 20px;
@@ -105,4 +99,16 @@
 .map:hover {
   transform: scale(1.1);
   transition: transform 0.3s;
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+  .contact-form input,
+  .contact-form textarea {
+      width: 90%;
+    }
+
 }
