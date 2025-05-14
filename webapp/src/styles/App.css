@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: 'AdlamDisplay', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.hero {
+  background-image: url('https://images.ctfassets.net/grb5fvwhwnyo/5qdng82bOC9cvCh8fvhP5v/c7b0ddc45e27e433ba62e1b792d87d99/card-driverless-trucks-in-logistics.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.service {
+  flex: 1;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+}
+
+.App {
+  background: #fff;
+}

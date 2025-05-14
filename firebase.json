@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "webapp/dist",
+    "site": "peaksolution",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
